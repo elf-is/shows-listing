@@ -1,0 +1,6 @@
+<div (click)="onShowDetails(show?.id)" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow h-96">
+
+  <img class="h-80 w-full rounded-t-lg" [src]="show?.image?.original" [alt]="show?.name"/>
+
+  <h5 class="p-2 mb-2 text-2xl font-bold tracking-tight text-gray-900">{{show?.name}}</h5>
+</div>

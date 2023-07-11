@@ -1,0 +1,9 @@
+.btn-submit {
+  @apply text-white absolute right-2.5 bottom-2.5 bg-cyan-500 hover:bg-cyan-600 focus:ring-4 focus:outline-none
+  focus:ring-cyan-300 font-medium rounded-2xl text-sm px-4 py-2;
+}
+
+.search-input {
+  @apply block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-2xl bg-gray-50
+  focus:ring-cyan-500 focus:border-cyan-500;
+}
